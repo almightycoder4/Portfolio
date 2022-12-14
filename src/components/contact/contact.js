@@ -10,18 +10,19 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 
 const Contact = () => {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      {/* <Particle /> */}
       <div>
         <div
           style={{
             margin: "auto",
-            background: "purple",
             width: "500px",
+            background: "red",
+            color: "white",
             borderRadius: "10px",
             marginTop: "5%",
           }}
