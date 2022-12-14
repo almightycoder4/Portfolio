@@ -31,7 +31,7 @@ function NavBar() {
 
   return (
     <Navbar
-      style={{ marginTop: "1%" }}
+      style={{ marginTop: "0%", background: "#7a7474" }}
       expanded={expand}
       fixed="top"
       expand="md"
