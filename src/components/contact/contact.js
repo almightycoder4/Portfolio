@@ -20,8 +20,8 @@ const Contact = () => {
         <div
           style={{
             margin: "auto",
-            width: "500px",
-            background: "red",
+            width: "350px",
+            background: "#623686",
             color: "white",
             borderRadius: "10px",
             marginTop: "5%",
