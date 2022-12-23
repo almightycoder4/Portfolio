@@ -42,7 +42,7 @@ const Contact = () => {
               <AiOutlineWhatsApp /> +91-9695232973
             </h5>
             <h5>
-              <AiOutlineMail />: almimghtycoder4@gmail.com
+              <AiOutlineMail />: almightycoder4@gmail.com
             </h5>
           </div>
           <div style={{ marginTop: "5%", marginBottom: "6%" }}>
