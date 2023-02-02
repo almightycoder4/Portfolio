@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCards";
 import nyka from "../../Assets/Projects/nykaa.png";
 import shop from "../../Assets/Projects/shop.com.png";
 import appfoody from "../../Assets/Projects/appfoody.png";
+import zostel from "../../Assets/Projects/zostel.png";
 
 function Projects() {
   return (
@@ -18,6 +19,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={zostel}
+              isBlog={false}
+              title="Zostel-Clone"
+              description="A pioneer of the new-age travel culture in India, Zostel is also the world's largest backpacker hostel chain. Stay with us at 60+ destinations across India and Nepal, exploring remote locations, remote parts of famous locations, and unconventional experiences on your holiday."
+              aboutproject="A collaborative project, built in 4 days by a team of 5 developers."
+              ghLink="https://github.com/DenishFuletra/zostel-clone"
+              demoLink="https://zostel.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nyka}
