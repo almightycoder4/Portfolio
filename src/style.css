@@ -8,6 +8,8 @@ html {
 
 .purple {
   color: red;
+  font-family: cursive;
+  transition: all 0.4s ease ease-in-out 1s;
 }
 
 button:focus {
@@ -155,6 +157,7 @@ button:focus {
   color: white !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
+  font-family: cursive;
 }
 
 .nav-link {
@@ -265,11 +268,15 @@ button:focus {
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
 }
 
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+  font-family: cursive;
+  font-weight: 700;
 }
 
 .main-name {
@@ -278,8 +285,9 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #de9323 !important;
   font-weight: 600 !important;
+  font-family: cursive;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -440,7 +448,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-color: #ffdbdb;
+  background-color: rgb(207 251 243);
 }
 
 .project-card {

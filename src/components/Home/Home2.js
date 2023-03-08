@@ -15,12 +15,18 @@ function Home2() {
       fluid
       className="home-about-section"
       id="about"
-      style={{ background: "#ffdbdb" }}
+      style={{ background: "rgb(207 251 243)" }}
     >
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em", color: "black" }}>
+            <h1
+              style={{
+                fontSize: "2.6em",
+                color: "black",
+                fontFamily: "cursive",
+              }}
+            >
               LET ME{" "}
               <span style={{ color: "red", fontWeight: "700" }}>
                 {" "}
@@ -29,38 +35,27 @@ function Home2() {
               MYSELF
             </h1>
             <p className="home-about-body" style={{ color: "black" }}>
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Hello, my name is Pawan Singh and I am a skilled full stack web
+              developer with expertise in both frontend and backend
+              technologies.
+              <br />I possess a strong foundation in programming languages such
+              as{" "}
               <i>
                 <b style={{ color: "red" }}>
-                  {" "}
-                  JAVA, HTML, CSS, JavaScript and React.{" "}
+                  HTML, CSS, JavaScript, and frameworks such as React for
+                  frontend development, as well as Node.js and Express for
+                  backend development.
                 </b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b style={{ color: "red" }}>Web Technologies and Products </b>{" "}
-                and also in areas related to{" "}
-                <b style={{ color: "red" }}>Full Stack Web Development.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b style={{ color: "red" }}>Node.js</b> and
-              <i>
-                <b style={{ color: "red" }}>
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b style={{ color: "red" }}> React.js and Next.js</b>
-              </i>
+              I am eager to learn and grow my skills while delivering
+              high-quality and efficient solutions to clients. I have excellent
+              problem-solving skills and attention to detail, which allows me to
+              create user-friendly web applications that meet the needs of
+              businesses and their customers.
+              <br />I am committed to staying up-to-date with the latest
+              technologies and industry trends to ensure that I deliver the most
+              effective solutions.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -69,7 +64,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1 style={{ color: "black" }}>FIND ME ON</h1>
             <p style={{ color: "black" }}>
@@ -118,7 +113,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
