@@ -548,7 +548,7 @@ button:focus {
   padding-bottom: 30px !important;
   /* background-image: var(--section-background-color) !important; */
   color: rgb(18, 17, 17) !important;
-  background-color: #ffdbdb;
+  background-color: rgb(207 251 243);
 }
 
 .tech-icons {
@@ -608,7 +608,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-color: #ffdbdb;
+  background-color: rgb(207 251 243);
   color: white !important;
 }
 

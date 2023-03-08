@@ -15,7 +15,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
   return (
     <Container fluid className="about-section">
-      {/* <Particle /> */}
       <div>
         <div
           style={{
