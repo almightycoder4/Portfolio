@@ -12,15 +12,17 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from "react-ga";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-
+  const trackid = "UA-258272461-1";
+  ReactGA.initialize(trackid);
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-
+    ReactGA.pageview(window.location.pathname);
     return () => clearTimeout(timer);
   }, []);
 

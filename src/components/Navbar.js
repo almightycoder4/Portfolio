@@ -37,6 +37,9 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
+      <h1 style={{ fontFamily: "cursive", color: "white", fontWeight: "800" }}>
+        {"<Pawan/>"}
+      </h1>
       <Container>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
